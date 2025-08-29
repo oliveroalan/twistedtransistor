@@ -1,0 +1,148 @@
+/* para vincular .link rel="stylesheet" href="../assets/css/style.css" */
+
+/* selector + propiedad + valor
+
+/*fuente*/
+
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400..900;1,400..900&family=Roboto+Condensed:ital,wght@0,100..900;1,100..900&family=Roboto+Slab:wght@100..900&display=swap');
+
+/*body*/
+
+body {
+    padding: 0px;
+    width: 1320px;
+    background-color: rgb(200, 200, 200);
+    font-family: "Roboto Slab", serif;
+}
+
+/*header*/
+header{
+    padding: 0px 25px 0px 10px;
+    align-items: center;
+    display: grid;
+    grid-template-columns: 30% 40% 30%;
+}
+.titulo{
+    color: #ffffff;
+    text-align: center;
+    font-size: 15px
+    
+}
+
+.menu{
+    font-size: 12px;
+    display: flex;
+    justify-content: center;
+    list-style: none;
+}
+.menu li{
+    margin: 5px;
+}
+
+header nav ul li a.active{
+    color:#ffffff
+}
+
+header nav ul li a{
+    color:#000000;
+}
+
+/*main */
+
+/* index{ */
+
+.index_section{
+    display: flex;
+    padding: 10px 20px 10px 20px;
+}
+
+.index_parrafo{
+    font-size: 18px;
+    margin: 5px;
+}
+
+.index_pros{
+    padding-bottom: 10px;
+}
+
+.index_contras{
+    padding-top: 10px;
+}
+
+.index_img{
+    width: 600px;
+    height: 450px;
+}
+/* index} */
+
+
+/* nosotros{*/
+.nosotros{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.nosotros_img{
+    padding-left: 20px;
+}
+
+.nosotros_parrafo{
+    padding: 0px 20px 0px 20px;
+}
+/*nosotros} */
+.comp{
+    display: grid;
+    grid-template-rows: 1fr 1fr;
+    grid-template-columns: 1fr 1fr 1fr;
+}
+.compromiso{
+    align-items: center;
+    width: 400px;
+    height: 600px;
+    margin: 20px;
+    text-align: center;
+}
+
+.imgcomp{
+    width: 200px;
+}
+
+/* servicios */
+.servicios{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 30% 70%;
+}
+
+.servicios_img{
+    width: 400px;
+    height: 400px;
+}
+.section_servicios_1{
+    padding: 20px 15px 20px 30px;
+}
+
+.section_servicios_2{
+    padding: 20px 15px 20px 15px;
+}
+
+.section_servicios_3{
+    padding: 20px 30px 20px 15px;
+}
+
+/* contacto */
+
+.contacto_sede{
+    display: grid;
+    grid-template-columns: 40% 60%;
+    padding: 20px 40px 20px 40px;
+}
+/* .contacto_img{
+    width: 500px;
+    height: 500px;
+} */
+/*footer*/
+.consulta{
+    display: grid;
+    grid-template-columns: 25% 75%;
+}
